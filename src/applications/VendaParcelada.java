@@ -41,9 +41,8 @@ public class VendaParcelada {
 		System.out.println();
 		System.out.println("Parcelas:");
 		
-		for (int i = 0; i < qtdParcelas; i++) {
-			System.out.print(contrato.getParcelamento().get(i).getDataVencimento().format(DateTimeFormatter.ofPattern("dd/MM/yyyy")));
-			System.out.println(" - " + String.format("%.2f",contrato.getParcelamento().get(i).getValor()));
+		for (Parcelamento parcelas : contrato.getParcelamento()) {
+			System.out.println(parcelas);
 		}
 		
 		sc.close();

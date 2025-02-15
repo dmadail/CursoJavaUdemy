@@ -1,6 +1,7 @@
 package model.entities;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class Parcelamento {
 	private LocalDate dataVencimento;
@@ -31,5 +32,8 @@ public class Parcelamento {
 		this.valor = valor;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return dataVencimento.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")) + " - " + String.format("%.2f", valor);
+	}
 }	

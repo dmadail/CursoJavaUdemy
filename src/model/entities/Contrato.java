@@ -43,10 +43,6 @@ public class Contrato {
 		return parcelamentos;
 	}
 
-	public void setParcelamento(Parcelamento parcelamento) {
-		this.parcelamentos.add(parcelamento);
-	}
-
 	public Double getValorTotal() {
 		return valorTotal;
 	}

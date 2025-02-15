@@ -23,7 +23,7 @@ public class ContratoService {
 			valorParcela += pagamentoOnlineService.juros(valorParcela, i);
 			valorParcela += pagamentoOnlineService.taxaPagamento(valorParcela);
 			
-			contrato.setParcelamento(new Parcelamento (dataVencimento, valorParcela));
+			contrato.getParcelamento().add(new Parcelamento (dataVencimento, valorParcela));
 			
 		}
 		

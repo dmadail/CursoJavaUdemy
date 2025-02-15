@@ -15,7 +15,7 @@ import java.util.Scanner;
 import model.entities.Circulo;
 import model.entities.FormaAbastrata;
 import model.entities.Retangulo;
-import model.entities.Cor.Cor;
+import model.enums.Cor;
 import model.services.Forma;
 
 public class CalculaAreaDaForma {

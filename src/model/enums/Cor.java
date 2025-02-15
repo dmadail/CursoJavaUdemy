@@ -1,4 +1,4 @@
-package model.entities.Cor;
+package model.enums;
 
 public enum Cor {
 	PRETO,

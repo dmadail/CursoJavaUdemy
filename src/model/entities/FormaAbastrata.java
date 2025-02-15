@@ -1,6 +1,6 @@
 package model.entities;
 
-import model.entities.Cor.Cor;
+import model.enums.Cor;
 import model.services.Forma;
 
 public abstract class FormaAbastrata implements Forma {

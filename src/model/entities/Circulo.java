@@ -1,6 +1,6 @@
 package model.entities;
 
-import model.entities.Cor.Cor;
+import model.enums.Cor;
 
 public class Circulo extends FormaAbastrata{
 	

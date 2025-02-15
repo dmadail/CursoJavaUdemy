@@ -1,6 +1,6 @@
 package model.entities;
 
-import model.entities.Cor.Cor;
+import model.enums.Cor;
 
 public class Retangulo extends FormaAbastrata{
 	private Double largura;

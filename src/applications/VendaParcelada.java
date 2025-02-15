@@ -46,7 +46,7 @@ public class VendaParcelada {
 			System.out.println(" - " + String.format("%.2f",contrato.getParcelamento().get(i).getValor()));
 		}
 		
-
+		sc.close();
 	}
 
 }

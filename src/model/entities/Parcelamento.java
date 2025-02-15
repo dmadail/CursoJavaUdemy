@@ -6,6 +6,9 @@ public class Parcelamento {
 	private LocalDate dataVencimento;
 	private Double valor;
 	
+	public Parcelamento() {
+		
+	}
 	
 	public Parcelamento(LocalDate dataVencimento, Double valor) {
 		this.dataVencimento = dataVencimento;
